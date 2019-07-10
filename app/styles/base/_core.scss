@@ -1,0 +1,50 @@
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+
+.section__nav{
+  padding: 1rem 0;
+  a{
+    color: black;
+  }
+}
+
+
+.section__hero{
+  background: url("../images/bk-solar-wind--export.jpg") no-repeat center $green;
+  background-size: cover;
+  color: white;
+
+  .section__hero-alpha{
+    height: 80vh;
+    // background-color: rgba(0,173,0,0.7);
+    background-color: rgba(0,0,0,0.3);
+  }
+
+}
+
+.padded-row{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.padded-row-small{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.bk-grey{
+  background-color: #EDEDED;
+}
